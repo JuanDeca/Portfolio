@@ -1,0 +1,81 @@
+@import 'header'
+@import 'main'
+@import 'footer'
+    
+*
+    margin: 0
+    font-family: montserrat, 'sans seriff'
+    box-sizing: border-box
+    scroll-behavior: smooth
+
+    a
+        all: unset
+    
+    .boton, a
+        border-radius: 2em
+        padding: 1em 2.8em
+        font-weight: bold
+        font-size: 1em
+    .boton:hover, a:hover
+        cursor: pointer
+
+    @media screen and ( min-width: 1466px )
+
+        .main
+            .proyects
+                padding: 1em 7em
+        .hero
+            img
+                right: 200px
+                width: 700px
+
+    @media screen and ( max-width: 1040px )
+
+        .main
+            .proyects
+                padding: .4em
+                h4
+                    padding: 2em
+                .proyectos
+                    padding: 1em
+                    display: flex
+                    flex-direction: column
+                    div
+                        display: flex
+
+    @media screen and ( max-width: 1268px ) 
+
+        .hero
+            img
+                display: none
+
+    @media screen and ( max-width: 768px )
+    
+        .navbar
+            h2
+                display: none
+        .hero
+            padding: 5em
+            .boton
+                margin-bottom: .2em
+            img
+                display: none
+        .main
+            .tech
+                padding: 5em
+                div
+                    display: flex
+                    flex-wrap: wrap
+                div > * 
+                    flex-grow: 1
+                h3
+                    padding-top: 0
+                h4
+                    display: none
+
+    @media screen and ( max-width: 468px )
+        
+        .navbar
+            div
+                a
+                    margin: .2em

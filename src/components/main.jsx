@@ -12,8 +12,8 @@ const Main = () => {
                         indumentara la cantidad de prendas que pueden llegar a desarrollar teniendo en 
                         cuenta los materiales que se necesitan para fabricar una unidad. </p>
                     <div>
-                        <a className='b3' target='_blank' href='https://miapp.netlify.app/'>Visitar</a>
-                        <a className='b4' target='_blank' href='https://github.com/JuanDeca/Miapp'>Ver código</a>
+                        <a className='b3' target='_blank' rel="noreferrer" href='https://miapp.netlify.app/'>Visitar</a>
+                        <a className='b4' target='_blank' rel="noreferrer" href='https://github.com/JuanDeca/Miapp'>Ver código</a>
                     </div>
                 </div>
                 <div className='proyectos'>
@@ -23,8 +23,8 @@ const Main = () => {
                         sigue en desarrollo.</p>
                     <img src="/img/4.png" alt="" />
                     <div>
-                    <a className='b3' target='_blank' href='https://focus12.netlify.app/'>Visitar</a>
-                    <a className='b4' target='_blank' href='https://github.com/JuanDeca/Focus'>Ver código</a>
+                    <a className='b3' target='_blank' rel="noreferrer" href='https://focus12.netlify.app/'>Visitar</a>
+                    <a className='b4' target='_blank' rel="noreferrer" href='https://github.com/JuanDeca/Focus'>Ver código</a>
                     </div>
                 </div>
             </div>
